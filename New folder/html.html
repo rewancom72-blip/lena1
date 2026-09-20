@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- شاشة الترحيب -->
+    <div id="splash-screen">
+        <h1 class="splash-logo">LENA FASHION</h1>
+    </div>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lena Fashion | لينا فاشون</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- FontAwesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- شريط الإعلان العلوي المتحرك -->
+    <div class="announcement-bar">
+        <div class="marquee-content">
+            <span>Welcome to our store • Free shipping on orders over 5000EGP • New arrivals just dropped</span>
+            <span>Welcome to our store • Free shipping on orders over 5000EGP • New arrivals just dropped</span>
+        </div>
+    </div>
+
+    <!-- الهيدر الرئيسي -->
+    <header class="main-header">
+        <div class="header-left">
+            <button class="menu-btn" id="menuBtn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <nav class="desktop-nav">
+                <a href="#">Home</a>
+                <a href="#">New in</a>
+                <a href="#">Collections</a>
+                <a href="#">Editorial</a>
+                <a href="#">Lookbook</a>
+                <a href="#">Contact</a>
+            </nav>
+        </div>
+
+        <div class="logo">
+            <h3>LENA FASHION</h3>
+        </div>
+
+        <div class="header-right">
+            <span class="phone"><i class="fa-solid fa-phone"></i> 01222948247</span>
+            <span class="address">123 Fashion Avenue, Dubai, UAE</span>
+        </div>
+    </header>
+
+    <!-- القائمة الجانبية (Drawer Menu) -->
+    <div class="sidebar-overlay" id="sidebarOverlay"></div>
+    <div class="sidebar-menu" id="sidebarMenu">
+        <div class="sidebar-header">
+            <h3>Lina Fashion Menu</h3>
+            <button class="close-btn" id="closeBtn"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+        <ul class="sidebar-links">
+            <li><a href="html.html"><i class="fa-solid fa-house"></i> Home</a></li>
+            <li><a href="blazers.html"><i class="fa-solid fa-shirt"></i> Blazers</a></li>
+            <li><a href="pant.html"><i class="fa-solid fa-person-walking"></i> Pants</a></li>
+            <li><a href="index.html"><i class="fa-solid fa-briefcase"></i> Formal collection</a></li>
+            <li><a href="winter.html"><i class="fa-solid fa-snowflake"></i> Winter collection</a></li>
+            <li><a href="#"><i class="fa-solid fa-tags"></i> Offers</a></li>
+        </ul>
+    </div>
+
+    <!-- قسم الـ Hero العريض (Banner) الجديد -->
+    <section class="hero-banner">
+        <div class="hero-overlay"></div>
+        <div class="hero-container">
+            <div class="hero-text-content">
+                <span class="sub-title">NEW COLLECTION</span>
+                <h1>Your Style<br>Your Statement</h1>
+                <p>Discover time pieces designed for modern living, bringing elegance and sophistication to your everyday look.</p>
+                <div class="hero-buttons">
+                    <a href="#" class="btn-primary">SHOP NOW</a>
+                    <a href="#" class="btn-secondary">Explore Collection</a>
+                </div>
+                <div class="hero-features">
+                    <div class="feature-item">
+                        <i class="fa-solid fa-truck"></i>
+                        <span><strong>FREE SHIPPING</strong><br>On Order Over 5000EGP</span>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fa-solid fa-rotate-left"></i>
+                        <span><strong>EASY RETURNS</strong><br>14 days - hassle free</span>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fa-solid fa-shield-halved"></i>
+                        <span><strong>SECURE PAYMENTS</strong><br>100% protected</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم المنتجات المميزة (المربعات ذات الحركة التفاعلية) -->
+    <section class="collections-section">
+        <h2>Start Shopping</h2>
+        <div class="divider">✦ ✦ ✦</div>
+        <div class="collections-grid">
+            <a href="index.html" class="collection-card">
+                <div class="square-img">
+                    <img src="PAR.jpeg" alt="Chic Casual">
+                    <div class="card-overlay"><span>Explore</span></div>
+                </div>
+                <h3>FORMAL COLLECTION</h3>
+                <p>Professional & Stylish Look</p>
+            </a>
+            <a href="winter.html" class="collection-card">
+                <div class="square-img">
+                    <img src="PAR2.jpeg" alt="Evening Glam">
+                    <div class="card-overlay"><span>Explore</span></div>
+                </div>
+                <h3>WINTER COLLECTION</h3>
+                <p>Chic yet cozy outfit</p>
+            </a>
+            <div class="collection-card">
+                <div class="square-img">
+                    <img src="A.jpeg" alt="Professional Edge">
+                    <div class="card-overlay"><span>Explore</span></div>
+                </div>
+                <h3>Diverse products</h3>
+                <p>Add a touch to your look</p>
+            </div>
+            <div class="collection-card">
+                <div class="square-img">
+                    <img src="O.jpeg" alt="Fine Details">
+                    <div class="card-overlay"><span>Explore</span></div>
+                </div>
+                <h3>OFFERS</h3>
+                <p>Presented by Lena Fashion</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم عن الماركة (About Us) -->
+    <section class="about-section">
+        <div class="about-text">
+            <h3>ABOUT US</h3>
+            <h2>Welcome To Lina Fashion</h2>
+            <p>Founded with a passion for sophisticated style, Lina Fashion brings you curated looks from around the world. We believe fashion is a form of self-expression, and we're here to help you define yours.</p>
+            <a href="#" class="about-btn">Explore Collections</a>
+        </div>
+        <div class="about-images">
+            <div class="badge-circle">
+                <span>BEAUTY BEGINS WITH CONFIDENCE • STYLE & ATTITUDE</span>
+            </div>
+            <div class="grid-photos">
+                <img src="فرو.jpeg" alt="Fashion 1">
+                <img src="PANT.jpeg" alt="Fashion 2">
+                <img src="DRESS.jpeg" alt="Fashion 3">
+                <img src="tc.jpeg" alt="Fashion 4">
+            </div>
+        </div>
+    </section>
+
+    <!-- الفوتر (Footer) -->
+    <footer class="main-footer">
+        <div class="footer-col">
+            <h4>Lina Fashion</h4>
+            <p><i class="fa-solid fa-location-dot"></i> Q Lina Fashion, Building 70, 1st Floor, Taaweniyat Smouha, Smouha, Alexandria, Egypt</p>
+            <p><i class="fa-solid fa-location-dot"></i> Q Lina Fashion, Nasr City, Cairo, Egypt</p>
+        </div>
+        <div class="footer-col">
+            <h4>Quick Fashion</h4>
+            <p><i class="fa-solid fa-phone"></i> 01222948247</p>
+            <p><i class="fa-solid fa-envelope"></i> hello@linafashion.com</p>
+        </div>
+        <div class="footer-col">
+            <h4>Follow Us</h4>
+            <div class="social-icons">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-whatsapp"></i>
+                <i class="fa-brands fa-pinterest"></i>
+            </div>
+        </div>
+        <div class="footer-col logo-col">
+            <h2>LENA FASHION</h2>
+        </div>
+    </footer>
+    <div class="footer-bottom">
+        <p>© 2026 Lina Fashion. All rights reserved.</p>
+    </div>
+
+    <!-- JavaScript للقائمة الجانبية -->
+    <script>
+        const menuBtn = document.getElementById('menuBtn');
+        const closeBtn = document.getElementById('closeBtn');
+        const sidebarMenu = document.getElementById('sidebarMenu');
+        const sidebarOverlay = document.getElementById('sidebarOverlay');
+
+        menuBtn.addEventListener('click', () => {
+            sidebarMenu.classList.add('active');
+            sidebarOverlay.classList.add('active');
+        });
+
+        closeBtn.addEventListener('click', () => {
+            sidebarMenu.classList.remove('active');
+            sidebarOverlay.classList.remove('active');
+        });
+
+        sidebarOverlay.addEventListener('click', () => {
+            sidebarMenu.classList.remove('active');
+            sidebarOverlay.classList.remove('active');
+        });
+    </script>
+  
+</body>
+</html>
